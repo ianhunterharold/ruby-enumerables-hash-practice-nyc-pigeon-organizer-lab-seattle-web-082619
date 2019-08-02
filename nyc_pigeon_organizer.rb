@@ -1,4 +1,4 @@
-require "pry"
+
 
 def nyc_pigeon_organizer (data)
 new_hash ={}
@@ -16,7 +16,7 @@ new_hash ={}
   
   
   key_variable = new_hash.keys  #how are my keys represented as new_hash.keys? could it be new_hash[keys]
-  binding.pry 
+
   #testing2 - changing my new_hash.keys ---> new_hash[keys]
       # ---> gave me undefined local variable or method `keys' for
   #pulled my iteration of my keys outside where I had it and code still satisfies the test. 
